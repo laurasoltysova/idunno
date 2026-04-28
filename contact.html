@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us!</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap" rel="stylesheet">
+
+<body>
+    <header>Welcome to Solveance</header>
+    <!--Nav bar-->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+    <!--nav bar end-->
+    <div class="colorpls">
+    <form onsubmit="handleSubmit(event)">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message"></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+    </div>
+
+    <p id="response"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>

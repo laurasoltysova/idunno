@@ -181,3 +181,31 @@ ul li a:hover{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+input, textarea {
+ width: 300px;
+ padding: 8px;
+ margin-bottom: 10px;
+ color: navy;
+ border-radius: 5px;
+ border-width: 5px;
+ border-color: rgb(158, 158, 224);
+ font-family: "Playwrite NZ Guides", cursive, bold;
+}
+
+button {
+ padding: 10px 15px;
+ background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+ font-family: "Playwrite NZ Guides", cursive, bold;
+ border: none;
+}
+
+button:hover {
+ background-color: rgb(158, 158, 224);;
+}
+
+.colorpls {
+  font-family: "Playwrite NZ Guides", cursive, bold;
+  color: #f2f2f2;
+}
